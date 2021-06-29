@@ -1,0 +1,153 @@
+body, html {
+    margin: 0 auto;
+}
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("./img/gameBoard.png");
+    background-repeat: no-repeat;
+    background-size: 800px 480px;
+}
+
+#gameBoard {
+    width: 160px;
+    height: 320px;
+    position: relative;
+    top: 120px;
+    left: 338px;
+    /* border: 1px solid red; */
+} 
+
+.gameBoardField {
+    /* outline: 1px solid red; */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-image: url("./img/brown_o.png"); */
+    /* background-color: black; */
+    /* color: white; */
+}
+
+#doctorDiv {
+    width: 240px;
+    height: 160px;
+    position: absolute;
+    top: 0px;
+    left: 399px;
+    /* outline: 1px solid yellow; */
+} 
+
+.doctorField {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-image: url("./img/brown_o.png"); */
+    /* background-color: black; */
+    /* color: white; */
+    /* outline: 1px solid green; */
+}
+
+#score, #highScore {
+    position: absolute;
+    left: 102px;
+    width: 140px;
+    height: 20px;
+    /* outline: 2px solid yellow; */
+}
+
+#score {
+    top: 159px;
+}
+
+#highScore {
+    top: 99px;
+}
+
+#virusCount {
+    position: absolute;
+    top: 419px;
+    left: 702px;
+}
+
+.number {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* outline: 1px solid pink; */
+    margin-right: -4px;
+    background-image: url("./img/cyfry/0.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#loseDiv, #winDiv {
+    position: absolute;
+    top: 160px;
+    left: 255px;
+    height: 119px;
+    width: 334px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#loseDiv {
+    background-image: url("./img/gameOver.png");
+}
+
+#winDiv {
+    background-image: url("./img/stageCompleted.png");
+}
+
+#surprisedDoc {
+    position: absolute;
+    top: 60px;
+    left: 599px;
+    height: 140px;
+    width: 141px;
+    background-image: url("./img/gameOver_doctor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#spyglass {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 267px;
+    left: 44px;
+    /* outline: 1px solid yellow; */
+}
+
+#spyglass > div {
+    position: absolute;
+    width: 75px;
+    height: 72px;
+    /* outline: 1px solid red; */
+    /* background-image: url("./img/lupa/blue/1.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#brownVir {
+    top: 118px;
+    left: 40px;
+}
+
+#yellowVir {
+    top: 29px;
+    left: 38px;
+}
+
+#blueVir {
+    top: 67px;
+    left: 130px;
+}
+
